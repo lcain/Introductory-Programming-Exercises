@@ -20,34 +20,8 @@ class DiamondExercises{
         }
     }
     void printTopOfDiamond(){
-        for (int i = 0; i < lines; i++) {
-            space = space.substring(0, space.length()-1);
-            System.out.println(space + asterisk);
-            asterisk += "**";
-        }
-    }
-    void printBottomOfDiamond(){
-        for (int i = 1; i < lines; i++) {
-            if(i == 1 ) {
-                asterisk = asterisk.substring(0, asterisk.length() - 2);
-                space += " ";
-            }
-            asterisk = asterisk.substring(0, asterisk.length()-2);
-            System.out.println(space + asterisk);
-            space += " ";
-        }
-    }
-    void printBottomOfNamedDiamond(){
-        for (int i = 1; i < lines; i++) {
-
-            asterisk = asterisk.substring(0, asterisk.length()-2);
-            System.out.println(space + asterisk);
-            space += " ";
-        }
-    }
-    void printTopOfNamedDiamond(){
         for (int i = 1; i <= lines; i++) {
-            if (i == lines){
+            if ((i == lines) && (name != null)){
                 System.out.println(name);
             }
             else {
@@ -57,6 +31,25 @@ class DiamondExercises{
             }
         }
     }
+    void printBottomOfDiamond(){
+        if (name != null) {
+            for (int i = 1; i < lines; i++) {
+                asterisk = asterisk.substring(0, asterisk.length() - 2);
+                System.out.println(space + asterisk);
+                space += " ";
+            }
+        } else {
+                for (int i = 1; i < lines; i++) {
+                    if(i == 1 ) {
+                        asterisk = asterisk.substring(0, asterisk.length() - 2);
+                        space += " ";
+                    }
+                    asterisk = asterisk.substring(0, asterisk.length()-2);
+                    System.out.println(space + asterisk);
+                    space += " ";
+                }
+            }
+        }
     void printAnIsoscelesTriangle(){
         System.out.println("This is an isosceles triangle with " + lines + " lines.");
         createSpaces();
@@ -71,8 +64,8 @@ class DiamondExercises{
     void printANamedDiamond(){
         System.out.println("This is a named diamond with " + lines + " lines.");
         createSpaces();
-        printTopOfNamedDiamond();
-        printBottomOfNamedDiamond();
+        printTopOfDiamond();
+        printBottomOfDiamond();
     }
 }
 
