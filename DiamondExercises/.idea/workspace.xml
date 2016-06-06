@@ -28,8 +28,8 @@
       <file leaf-file-name="DiamondExercisesTestDrive.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lorettacain/DiamondExercisesTestDrive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="195">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
@@ -57,8 +57,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
-    <option name="y" value="46" />
+    <option name="x" value="130" />
+    <option name="y" value="64" />
     <option name="width" value="1120" />
     <option name="height" value="733" />
   </component>
@@ -156,6 +156,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TriangleExcercises" />
   </component>
   <component name="RunManager" selected="Application.DiamondExercisesTestDrive">
     <configuration default="false" name="DiamondExercisesTestDrive" type="Application" factoryName="Application" temporary="true">
@@ -413,7 +414,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="46" width="1120" height="733" extended-state="0" />
+    <frame x="130" y="64" width="1120" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -526,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lorettacain/DiamondExercisesTestDrive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
